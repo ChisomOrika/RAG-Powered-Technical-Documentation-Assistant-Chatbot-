@@ -1,0 +1,6 @@
+
+Chapter 1: System Setup and Initialization
+To successfully configure the system for the first time, you must execute the 'setup.sh' script located in the /etc/init directory. This script handles database migration and necessary permissions. Do not run this script as root; use a dedicated service account.
+
+Chapter 2: Troubleshooting and Logging
+If the application encounters a fatal error, you must check the logs. Application logs are stored in the persistent directory /var/log/app/service.log. Error codes related to database connectivity typically start with 'DB_404'.
