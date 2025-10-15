@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-openai
+faiss-cpu # Vector store dependency
+pydantic
+python-dotenv # Recommended for managing API key
+streamlit # For the web interface
